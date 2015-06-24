@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-xs-12 col-sm-offset-3 col-sm-6">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+                <thead>
+                <tr>
+                    <th table-sorter header-title="Name" header-value="name" order-by="orderField" reverse="reverseOrder"/>
+                    <th table-sorter header-title="Surname" header-value="surname" order-by="orderField" reverse="reverseOrder"/>
+                    <th table-sorter header-title="Age" header-value="age" order-by="orderField" reverse="reverseOrder"/>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="people in peopeList | orderBy:orderField:reverseOrder">
+                    <td>{{people.name}}</td>
+                    <td>{{people.surname}}</td>
+                    <td>{{people.age}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
