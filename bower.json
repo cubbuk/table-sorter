@@ -1,0 +1,23 @@
+{
+  "name": "table-sorter",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cubbuk/table-sorter",
+  "authors": [
+    "mehmet <mehmet.cubuk@bitaksi.com>"
+  ],
+  "description": "angular directive for sorting tables",
+  "keywords": [
+    "angularjs",
+    "table",
+    "sort",
+    "directive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
